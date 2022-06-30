@@ -1,0 +1,99 @@
+{
+  "uid" : "efc116245443d974",
+  "name" : "test_login[datainfo1-baseinfo0-caseinfo0]",
+  "fullName" : "testcases.test_login.TestLogin#test_login",
+  "historyId" : "6cb231ebc720696025aad1bdcc8fbe79",
+  "time" : {
+    "start" : 1645603071765,
+    "stop" : 1645603071804,
+    "duration" : 39
+  },
+  "status" : "failed",
+  "statusMessage" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntestcases\\test_login.py:45: AssumptionFailure\n>>\tpytest.assume(assert_str in rep)\nAssertionError: assert False",
+  "statusTrace" : "tp = <class 'pytest_assume.plugin.FailedAssumption'>, value = None, tb = None\n\n    def reraise(tp, value, tb=None):\n        try:\n            if value is None:\n                value = tp()\n            if value.__traceback__ is not tb:\n>               raise value.with_traceback(tb)\nE               pytest_assume.plugin.FailedAssumption: \nE               1 Failed Assumptions:\nE               \nE               testcases\\test_login.py:45: AssumptionFailure\nE               >>\tpytest.assume(assert_str in rep)\nE               AssertionError: assert False\n\nvenv\\lib\\site-packages\\six.py:718: FailedAssumption",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntestcases\\test_login.py:45: AssumptionFailure\n>>\tpytest.assume(assert_str in rep)\nAssertionError: assert False",
+    "statusTrace" : "tp = <class 'pytest_assume.plugin.FailedAssumption'>, value = None, tb = None\n\n    def reraise(tp, value, tb=None):\n        try:\n            if value is None:\n                value = tp()\n            if value.__traceback__ is not tb:\n>               raise value.with_traceback(tb)\nE               pytest_assume.plugin.FailedAssumption: \nE               1 Failed Assumptions:\nE               \nE               testcases\\test_login.py:45: AssumptionFailure\nE               >>\tpytest.assume(assert_str in rep)\nE               AssertionError: assert False\n\nvenv\\lib\\site-packages\\six.py:718: FailedAssumption",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3cfd552dc20e2e88",
+      "name" : "log",
+      "source" : "3cfd552dc20e2e88.txt",
+      "type" : "text/plain",
+      "size" : 184
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "错误账号登录"
+  }, {
+    "name" : "feature",
+    "value" : "登录测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "HXPSPQYBEZK8JRT"
+  }, {
+    "name" : "thread",
+    "value" : "560696-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "baseinfo",
+    "value" : "{'base': {'index_url': 'https://www.wy56.com/test/h5/keyi-wms/', 'base_url': 'https://api.wy56.com/test/wms-api', 'pre_auth': 'Bearer'}, 'log': {'log_name': 'log_', 'log_level': 'info', 'log_fomat': '[%(asctime)s] %(filename)s->%(funcname)s'}}"
+  }, {
+    "name" : "caseinfo",
+    "value" : "{'name': '$csv{name}', 'parameters': {'name-login-assert_str': 'test_login.csv'}, 'requests': {'url': '/system/login', 'method': 'post', 'data': {'loginType': '1', 'userName': '上海管理', 'password': '123456'}}, 'validate': {'equals': 2000000, 'assert_str': '$csv{assert_str}'}}"
+  }, {
+    "name" : "datainfo",
+    "value" : "{'name': '登录', 'story': '错误账号登录', 'loginType': '1', 'userName': '上海管理1', 'password': '123456', 'assert_str': '40300000'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "efc116245443d974.json",
+  "parameterValues" : [ "{'base': {'index_url': 'https://www.wy56.com/test/h5/keyi-wms/', 'base_url': 'https://api.wy56.com/test/wms-api', 'pre_auth': 'Bearer'}, 'log': {'log_name': 'log_', 'log_level': 'info', 'log_fomat': '[%(asctime)s] %(filename)s->%(funcname)s'}}", "{'name': '$csv{name}', 'parameters': {'name-login-assert_str': 'test_login.csv'}, 'requests': {'url': '/system/login', 'method': 'post', 'data': {'loginType': '1', 'userName': '上海管理', 'password': '123456'}}, 'validate': {'equals': 2000000, 'assert_str': '$csv{assert_str}'}}", "{'name': '登录', 'story': '错误账号登录', 'loginType': '1', 'userName': '上海管理1', 'password': '123456', 'assert_str': '40300000'}" ]
+}

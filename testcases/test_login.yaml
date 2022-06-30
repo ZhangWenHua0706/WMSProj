@@ -1,0 +1,13 @@
+- name: $csv{name}
+  parameters:
+    name-login-assert_str: test_login.csv
+  requests:
+    url: /system/login
+    method: post
+    data:
+      loginType: $csv{loginType}
+      userName: $csv{userName}
+      password: $csv{password}
+  validate:
+      equals: 2000000
+      assert_str: $csv{assert_str}

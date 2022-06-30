@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntestcases\\test_login.py:45: AssumptionFailure\n>>\tpytest.assume(assert_str in rep)\nAssertionError: assert False",
+      "children" : [ {
+        "name" : "test_login[datainfo1-baseinfo0-caseinfo0]",
+        "uid" : "efc116245443d974",
+        "parentUid" : "4faea222ca988f9f2f173d1f81b4cbff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1645603071765,
+          "stop" : 1645603071804,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'base': {'index_url': 'https://www.wy56.com/test/h5/keyi-wms/', 'base_url': 'https://api.wy56.com/test/wms-api', 'pre_auth': 'Bearer'}, 'log': {'log_name': 'log_', 'log_level': 'info', 'log_fomat': '[%(asctime)s] %(filename)s->%(funcname)s'}}", "{'name': '$csv{name}', 'parameters': {'name-login-assert_str': 'test_login.csv'}, 'requests': {'url': '/system/login', 'method': 'post', 'data': {'loginType': '1', 'userName': '上海管理', 'password': '123456'}}, 'validate': {'equals': 2000000, 'assert_str': '$csv{assert_str}'}}", "{'name': '登录', 'story': '错误账号登录', 'loginType': '1', 'userName': '上海管理1', 'password': '123456', 'assert_str': '40300000'}" ]
+      } ],
+      "uid" : "4faea222ca988f9f2f173d1f81b4cbff"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,3 @@
+INFO     访问首页:test_alogin.py:25 访问首页
+INFO     访问首页:test_alogin.py:26 预期测试结果返回:科驿智慧仓储管理平台
+INFO     访问首页:test_alogin.py:27 实际测试结果返回:科驿智慧仓储管理平台

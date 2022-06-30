@@ -1,0 +1,3 @@
+INFO     登录测试:test_inorder.py:32 错误账号登录
+INFO     登录测试:test_inorder.py:33 预期测试结果返回:4030000
+INFO     登录测试:test_inorder.py:34 实际测试结果返回:4030000

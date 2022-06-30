@@ -1,0 +1,21 @@
+- name: $csv{name}
+  parameters:
+    name-login-assert_str: goods_list.csv
+  requests:
+    url: /wms/base/goods/list
+    method: get
+    data:
+      type: 1
+      page: 1
+      limit: 20
+      goodsEnable: 1
+      goodsCustId: $csv{goodsCustId}
+      goodsCustomerId: $csv{goodsCustomerId}
+      goodsCategoryId: $csv{goodsCategoryId}
+      goodsName: $csv{goodsName}
+      goodsExtendCode: $csv{goodsExtendCode}
+      goodsCode: $csv{goodsCode}
+      goodsBarcode: $csv{goodsBarcode}
+  validate:
+      equals: 2000000
+      assert_str: $csv{assert_str}

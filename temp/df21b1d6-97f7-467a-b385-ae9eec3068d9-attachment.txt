@@ -1,0 +1,3 @@
+INFO     入库单导入:test_ordermanage.py:140 入库单导入
+INFO     入库单导入:test_ordermanage.py:141 预期测试结果返回:2000000
+INFO     入库单导入:test_ordermanage.py:142 实际测试结果返回:5000000

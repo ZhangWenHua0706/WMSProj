@@ -1,0 +1,2 @@
+INFO     访问首页:test_login.py:22 访问首页
+INFO     访问首页:test_login.py:23 预期测试结果返回:200000

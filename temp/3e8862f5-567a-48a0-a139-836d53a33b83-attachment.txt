@@ -1,0 +1,3 @@
+INFO     登录测试:test_alogin.py:43 正常登陆
+INFO     登录测试:test_alogin.py:44 预期测试结果返回:2000000
+INFO     登录测试:test_alogin.py:45 实际测试结果返回:2000000

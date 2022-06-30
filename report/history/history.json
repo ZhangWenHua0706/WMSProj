@@ -1,0 +1,79 @@
+{
+  "49686f39bd5cf4f3d638afaff3883226" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bbc8c0de0e9adb92",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645603070919,
+        "stop" : 1645603071760,
+        "duration" : 841
+      }
+    } ]
+  },
+  "844a871565eef9b0b32c45100ed2dfb1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fb3e066765888a67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645603071831,
+        "stop" : 1645603071870,
+        "duration" : 39
+      }
+    } ]
+  },
+  "6cb231ebc720696025aad1bdcc8fbe79" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "efc116245443d974",
+      "status" : "failed",
+      "statusDetails" : "pytest_assume.plugin.FailedAssumption: \n1 Failed Assumptions:\n\ntestcases\\test_login.py:45: AssumptionFailure\n>>\tpytest.assume(assert_str in rep)\nAssertionError: assert False",
+      "time" : {
+        "start" : 1645603071765,
+        "stop" : 1645603071804,
+        "duration" : 39
+      }
+    } ]
+  },
+  "5b0a7db180a2b5368fce55236eab171c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ae59fc313f00a7ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1645603070840,
+        "stop" : 1645603070914,
+        "duration" : 74
+      }
+    } ]
+  }
+}

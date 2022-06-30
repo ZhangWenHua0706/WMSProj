@@ -1,0 +1,91 @@
+{
+  "uid" : "bbc8c0de0e9adb92",
+  "name" : "test_login[datainfo0-baseinfo0-caseinfo0]",
+  "fullName" : "testcases.test_login.TestLogin#test_login",
+  "historyId" : "49686f39bd5cf4f3d638afaff3883226",
+  "time" : {
+    "start" : 1645603070919,
+    "stop" : 1645603071760,
+    "duration" : 841
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "a0fbe53ae747bd45",
+      "name" : "log",
+      "source" : "a0fbe53ae747bd45.txt",
+      "type" : "text/plain",
+      "size" : 177
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "正常登陆"
+  }, {
+    "name" : "feature",
+    "value" : "登录测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "HXPSPQYBEZK8JRT"
+  }, {
+    "name" : "thread",
+    "value" : "560696-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "baseinfo",
+    "value" : "{'base': {'index_url': 'https://www.wy56.com/test/h5/keyi-wms/', 'base_url': 'https://api.wy56.com/test/wms-api', 'pre_auth': 'Bearer'}, 'log': {'log_name': 'log_', 'log_level': 'info', 'log_fomat': '[%(asctime)s] %(filename)s->%(funcname)s'}}"
+  }, {
+    "name" : "caseinfo",
+    "value" : "{'name': '$csv{name}', 'parameters': {'name-login-assert_str': 'test_login.csv'}, 'requests': {'url': '/system/login', 'method': 'post', 'data': {'loginType': '$csv{loginType}', 'userName': '$csv{userName}', 'password': '$csv{password}'}}, 'validate': {'equals': 2000000, 'assert_str': '$csv{assert_str}'}}"
+  }, {
+    "name" : "datainfo",
+    "value" : "{'name': '登录', 'story': '正常登陆', 'loginType': '1', 'userName': '上海管理', 'password': '123456', 'assert_str': '2000000'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bbc8c0de0e9adb92.json",
+  "parameterValues" : [ "{'base': {'index_url': 'https://www.wy56.com/test/h5/keyi-wms/', 'base_url': 'https://api.wy56.com/test/wms-api', 'pre_auth': 'Bearer'}, 'log': {'log_name': 'log_', 'log_level': 'info', 'log_fomat': '[%(asctime)s] %(filename)s->%(funcname)s'}}", "{'name': '$csv{name}', 'parameters': {'name-login-assert_str': 'test_login.csv'}, 'requests': {'url': '/system/login', 'method': 'post', 'data': {'loginType': '$csv{loginType}', 'userName': '$csv{userName}', 'password': '$csv{password}'}}, 'validate': {'equals': 2000000, 'assert_str': '$csv{assert_str}'}}", "{'name': '登录', 'story': '正常登陆', 'loginType': '1', 'userName': '上海管理', 'password': '123456', 'assert_str': '2000000'}" ]
+}

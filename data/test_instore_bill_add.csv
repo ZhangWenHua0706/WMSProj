@@ -1,0 +1,5 @@
+name,story,isConfirmIn,isDetail,inbillCreateTime,inbillTime,inbillType,inbillNumber,inbillOrderNo,inbillRemark,id,show,index,inbillInfoFreeze,inbillInfoMaterial,inbillInfoGoodsCount,index1,inbillInfoFreeze1,inbillInfoMaterial1,inbillInfoGoodsCount1,orderAmtOrgName,orderAmtOrgId,orderAmtPayType,orderAmtVarifiType,orderAmtTime,orderAmtSubmitTime,orderAmtStatusDesc,show,index,orderAmtTypeId,amtName,orderAmt,assert_str
+创建入库单,正常下单,0,0,,,1,,,python测试厂家入库单,,FALSE,0,1,1,5,1,2,2,9,,,,,,,,,,158,装卸费,1,2000000
+创建入库单,正常下单,0,0,,,2,,,python测试换货入库单,,FALSE,0,2,2,6,1,1,1,100,,,,,,,,,,158,装卸费,1,2000000
+创建入库单,正常下单,0,0,,,3,,,python测试退货入库单,,FALSE,0,1,1,7,1,2,2,999,,,,,,,,,,158,装卸费,1,2000000
+创建入库单,正常下单,0,0,2022-03-16 23:23:02,2022-03-16 23:23:10,1,,,python测试带时间,,FALSE,0,2,1,8,1,1,2,163,,,,,,,,,,158,装卸费,1,2000000

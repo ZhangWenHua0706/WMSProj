@@ -1,0 +1,2 @@
+INFO     访问首页:test_login.py:27 访问首页
+INFO     访问首页:test_login.py:28 预期测试结果返回:科驿智慧仓储管理平台

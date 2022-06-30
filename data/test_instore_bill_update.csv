@@ -1,0 +1,5 @@
+name,story,isConfirmIn,isDetail,inbillCreateTime,inbillTime,inbillType,inbillRemark,inbillInfoFreeze,inbillInfoMaterial,inbillInfoGoodsCount,index1,inbillInfoFreeze1,inbillInfoMaterial1,inbillInfoGoodsCount1,assert_str
+修改入库单,修改1,0,0,,,1,python入库单修改1,2,2,15,1,2,2,19,2000000
+修改入库单,修改2,0,0,,,2,python入库单修改2,1,1,16,1,1,1,20,2000000
+修改入库单,修改3,0,0,,,3,python入库单修改3,2,2,17,1,2,2,21,2000000
+修改入库单,修改4,0,0,2022-3-16 23:23:10,2022-3-6 23:23:20,1,python入库单修改4,1,2,18,1,1,2,22,2000000

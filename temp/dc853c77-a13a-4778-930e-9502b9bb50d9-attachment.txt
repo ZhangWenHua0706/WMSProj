@@ -1,0 +1,2 @@
+INFO     root:conftest.py:44 获取客户列表成功
+INFO     创建入库单:test_ordermanage.py:45 获取商品列表失败
