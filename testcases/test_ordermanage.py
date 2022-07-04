@@ -92,7 +92,7 @@ class TestOrderManage:
     @pytest.mark.parametrize('caseinfo', YamlUtil().read_test_yamlfile('test_instore_bill_update.yaml'))
     @pytest.mark.parametrize('baseinfo', YamlUtil().read_yamlfile('config.yaml'))
     @pytest.mark.parametrize('datainfo', DataUtil().csv_read('test_instore_bill_update.csv'))
-    def atest_instore_bill_update(self, baseinfo, caseinfo, datainfo, login, getinstorebillinfo):
+    def test_instore_bill_update(self, baseinfo, caseinfo, datainfo, login, getinstorebillinfo):
         #修改入库单
         method = caseinfo["requests"]["method"]
         post_type = "json"
