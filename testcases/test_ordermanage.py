@@ -19,7 +19,7 @@ class TestOrderManage:
     @pytest.mark.parametrize('caseinfo', YamlUtil().read_test_yamlfile('test_instore_bill_add.yaml'))
     @pytest.mark.parametrize('baseinfo', YamlUtil().read_yamlfile('config.yaml'))
     @pytest.mark.parametrize('datainfo', DataUtil().csv_read('test_instore_bill_add.csv'))
-    def atest_instore_bill_add(self, baseinfo, caseinfo, datainfo,login,getcustinfo,getgoodsinfo):
+    def test_instore_bill_add(self, baseinfo, caseinfo, datainfo,login,getcustinfo,getgoodsinfo):
         # 新建入库单
         method = caseinfo["requests"]["method"]
         post_type = "json"
