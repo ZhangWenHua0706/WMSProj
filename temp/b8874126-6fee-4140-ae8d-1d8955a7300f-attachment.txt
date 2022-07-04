@@ -1,5 +1,0 @@
-INFO     root:conftest.py:45 获取客户列表成功
-INFO     root:conftest.py:77 获取商品列表成功
-INFO     创建入库单:test_ordermanage.py:85 正常下单
-INFO     创建入库单:test_ordermanage.py:86 预期测试结果返回:2000000
-INFO     创建入库单:test_ordermanage.py:87 实际测试结果返回:2000000

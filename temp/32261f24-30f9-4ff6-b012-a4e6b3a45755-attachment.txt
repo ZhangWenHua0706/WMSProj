@@ -1,3 +1,0 @@
-INFO     登录测试:test_login.py:35 正常登陆
-INFO     登录测试:test_login.py:36 预期测试结果返回:2000000
-INFO     登录测试:test_login.py:37 实际测试结果返回:2000000

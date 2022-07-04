@@ -1,3 +1,0 @@
-INFO     登录测试:test_login.py:41 错误密码登录
-INFO     登录测试:test_login.py:42 预期测试结果返回:4030000
-INFO     登录测试:test_login.py:43 实际测试结果返回:4030000

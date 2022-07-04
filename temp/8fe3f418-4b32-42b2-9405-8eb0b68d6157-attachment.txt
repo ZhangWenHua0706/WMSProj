@@ -1,2 +1,0 @@
-INFO     root:conftest.py:116 获取入库单列表成功
-INFO     root:conftest.py:138 获取入库单信息成功

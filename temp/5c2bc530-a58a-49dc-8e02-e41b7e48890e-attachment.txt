@@ -1,3 +1,0 @@
-INFO     访问首页:test_login.py:26 访问首页
-INFO     访问首页:test_login.py:27 预期测试结果返回:智慧仓储
-INFO     访问首页:test_login.py:28 实际测试结果返回:None

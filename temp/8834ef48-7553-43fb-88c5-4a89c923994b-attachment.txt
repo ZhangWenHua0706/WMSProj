@@ -1,5 +1,0 @@
-INFO     root:conftest.py:118 获取入库单列表成功
-INFO     root:conftest.py:140 获取入库单信息成功
-INFO     修改入库单:test_ordermanage.py:118 修改3
-INFO     修改入库单:test_ordermanage.py:119 预期测试结果返回:2000000
-INFO     修改入库单:test_ordermanage.py:120 实际测试结果返回:2000000

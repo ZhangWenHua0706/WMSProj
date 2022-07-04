@@ -1,3 +1,0 @@
-INFO     创建入库单:test_instore.py:33 正常下单
-INFO     创建入库单:test_instore.py:34 预期测试结果返回:2000000
-INFO     创建入库单:test_instore.py:35 实际测试结果返回:5000000
