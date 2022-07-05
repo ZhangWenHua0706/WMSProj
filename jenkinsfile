@@ -1,0 +1,21 @@
+pipeline {
+    agent any
+    stages {
+        stage('pull code') {
+            steps {
+               checkout([$class: 'GitSCM', branches: [[name: '*/master']], extensions: [], userRemoteConfigs: [[credentialsId: 'fbc1a069-5e02-491b-8277-308ef86a860d', url: 'https://github.com/ZhangWenHua0706/WMSProj.git']]])
+            }
+        }
+            stage('run testcase') {
+            steps {
+               bat '''cd D:\\jenkins\\workspace\\pipeline_wms_test
+                D:\\Python3\\python.exe all.py --alluredir=reports'''
+            }
+        }
+            stage('generate allure report') {
+            steps {
+              allure includeProperties: false, jdk: '', results: [[path: 'reports']]
+            }
+        }
+    }
+    }
